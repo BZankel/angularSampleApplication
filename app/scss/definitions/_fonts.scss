@@ -2,7 +2,7 @@ $pathToFonts: '../resources/fonts/';
 
 $fontList: ("Big": "16px", "Large": "14px", "Normal": "12px", "Small": "11px");
 
-//This is the adidas Haus font
+//Fonts
 @include font-face("Roboto", $pathToFonts + "Roboto-Black", $file-formats: ttf);
 
 //Generating the fonts as classes
