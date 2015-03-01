@@ -28,8 +28,9 @@ Bonus points for:
 9. Run npm install from the root directory
 10. Run bower install from the root directory (Use angular 1.3+ to make one way databinding work)
 11. Run npm install in the server directory
-12. Run nodemon server.coffee from the server directory
-13. Run grunt serve from the root directory
+12. Create logs directory under server directory
+13. Run nodemon server.coffee from the server directory
+14. Run grunt serve from the root directory
 
 #TODO
 1. Write unit tests
