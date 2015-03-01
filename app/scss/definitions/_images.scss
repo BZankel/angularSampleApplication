@@ -1,0 +1,7 @@
+$pathToImages: '../images/';
+
+%rangePlanVizBackground {
+  $imageName: "background.png";
+  background-size: cover;
+  background-image: url($pathToImages + $imageName);
+}

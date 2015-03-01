@@ -1,0 +1,9 @@
+<span
+  class="jsonDraggerElement"
+  ng-class="{disabled: !elementData.enabled}"
+  ng-dblclick="doubleClick($event, elementData.id)"
+  editable-text="elementDataJson"
+  e-form="textBtnForm"
+  onbeforesave="checkJsonValidness($data)">
+  {{elementData[renderField]}}
+</span>

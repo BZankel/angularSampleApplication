@@ -1,0 +1,14 @@
+$codeMirrorBorder: 2px solid $codeMirrorBorderColor !default;
+$codeMirrorMargin: 10px 20px 0 0 !default;
+.CodeMirror {
+
+  border: $codeMirrorBorder;
+  margin: $codeMirrorMargin;
+}
+//The send button
+.codeMirrorSendButtonContainer {
+  float: right;
+  margin: $codeMirrorMargin;
+  position: relative;
+  z-index: 2;
+}

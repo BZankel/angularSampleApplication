@@ -1,0 +1,65 @@
+//The json dragger itself
+.jsonDragger {
+  $jsonDraggerListStyle: none outside none !default;
+  $jsonDraggerMargin: 10px 0 30px !default;
+  $jsonDraggerElementWidth:  80% !default;
+  $jsonDraggerElementPadding:  5px 10px !default;
+  $jsonDraggerElementMargin: 5px 0 !default;
+  $jsoneDraggerElementBorder: 2px solid $jsonDraggerElementBorderColor !default;
+  $jsoneDraggerElementBorderRadius: 5px !default;
+
+
+
+
+  list-style: $jsonDraggerListStyle;
+  margin: $jsonDraggerMargin;
+
+  //One element of the json Dragger
+  .jsonDraggerElement {
+    background-color: $jsonDraggerElementBackgroundColor;
+    width:$jsonDraggerElementWidth;
+    padding:$jsonDraggerElementPadding;
+    margin: $jsonDraggerElementMargin;
+    border:  $jsoneDraggerElementBorder;
+    border-radius: $jsoneDraggerElementBorderRadius;
+    @extend .RobotoNormalBold;
+    text-align: center;
+    cursor: move;
+    display: block;
+    &.disabled {
+      background-color:$jsonDraggerElementDisabledBackgroundColor;
+    }
+  }
+
+  //The edit in place element
+  .editable-text {
+    button {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1.428571429;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      background-color: #CF0240;
+      color: white;
+    }
+
+    button[type="submit"] {
+      color: #ffffff;
+      background-color: #5cb85c;
+      border-color: #4cae4c;
+    }
+  }
+}
+

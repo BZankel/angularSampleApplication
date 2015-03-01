@@ -1,0 +1,23 @@
+[
+  {
+    "id": 123,
+    "label": "root",
+    "parentId": -1,
+    "type": "A",
+    "enabled": true
+  },
+  {
+    "id": 1234,
+    "label": "child",
+    "parentId": 123,
+    "type": "A",
+    "enable": false
+  },
+  {
+    "id": 12345,
+    "label": "numbers only",
+    "parentId": 1234,
+    "type": "N",
+    "enabled": true
+  }
+]

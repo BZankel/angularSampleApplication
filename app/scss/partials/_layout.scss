@@ -1,0 +1,39 @@
+html, body, .main, .appContainer {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  list-style: none;
+
+}
+//The view areas
+.left {
+  padding-left: 40px;
+  padding-top: 100px;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.rightTop, .rightBottom {
+  width: 50%;
+  float: right;
+  padding-top: 100px;
+}
+
+.rightTop {
+  height: 35%;
+}
+
+.rightBottom {
+  height: 65%;
+}
+
+

@@ -1,0 +1,14 @@
+<ul
+  data-ui-sortable="sortableOptions"
+  data-ng-model="dataModel"
+  class="jsonDragger">
+  <li
+    sample-application-json-dragger-element
+    data-ng-repeat="(key, value) in dataModel"
+    data-element-data="value"
+    data-double-click-callback="::elementDoubleClick"
+    data-render-field="::renderField"
+    data-update-render-field="::updateRenderField"
+    data-module-name="::moduleName">
+  </li>
+</ul>

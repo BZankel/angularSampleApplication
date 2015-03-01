@@ -1,0 +1,32 @@
+$pathToFonts: '../resources/fonts/';
+
+$fontList: ("Big": "16px", "Large": "14px", "Normal": "12px", "Small": "11px");
+
+//This is the adidas Haus font
+@include font-face("Roboto", $pathToFonts + "Roboto-Black", $file-formats: ttf);
+
+//Generating the fonts as classes
+@each $key, $size in $fontList {
+  //Regular
+  .Roboto#{$key}Regular {
+    font-family: 'AdiHaus';
+    font-size: $size;
+  }
+  //Bold
+  .Roboto#{$key}Bold {
+    font-family: 'AdiHaus';
+    font-size: $size;
+    font-weight: bold;
+  }
+  //Italic
+  .Roboto#{$key}Italic {
+    font-family: 'AdiHaus';
+    font-size: $size;
+    font-style: italic;
+  }
+}
+
+
+
+
+

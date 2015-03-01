@@ -1,0 +1,9 @@
+{
+  "_logMessages.controller.requestServerData_": "Der Controller $1 fragt Serverdaten unter der URL $2 an",
+  "_logMessages.controller.requestServerDataSuccess_": "Die Serveranfrage für den Controller $1 von der URL $2 war erfolgreich",
+  "_logMessages.responseWas_": "Die Server antwort war: ",
+  "_codeMirror.pleaseEnterYourCode_": "angular.element('.jsonDragger').getNodeWithId(12345).setParentId(123);",
+  "_codeMirror.submit_": "Abschicken",
+  "_errorMessages.someValueIsNoNumber_": "Einige Werte sind keine Nummern",
+  "_errorMessages.noValidJson_": "Kein valides Json"
+}

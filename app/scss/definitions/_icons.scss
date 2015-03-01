@@ -1,0 +1,13 @@
+$pathToIconSprite: '../images/apvicons.png';
+$spriteElementWidth: 25px;
+$spriteElementHeight: 25px;
+
+%filterBarCategoryClosed {
+  background-image: url($pathToIconSprite);
+  background-position: 125px 2px;
+}
+
+%filterBarCategoryOpen {
+  background-image: url($pathToIconSprite);
+  background-position: 100px 2px;
+}

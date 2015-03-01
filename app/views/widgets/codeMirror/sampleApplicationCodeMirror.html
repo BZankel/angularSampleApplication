@@ -1,0 +1,13 @@
+<div>
+  <ui-codemirror
+    ui-codemirror-opts="configuration"
+    ng-model="modelBinding">
+  </ui-codemirror>
+  <span class="codeMirrorSendButtonContainer">
+    <button
+      class="btn btn-primary"
+      ng-click="codeMirrorCtrl.modelChange($event,modelBinding)">
+      {{"_codeMirror.submit_" | translate}}
+    </button>
+  </span>
+</div>

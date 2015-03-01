@@ -1,0 +1,23 @@
+{
+  "name": "systemExcellence.dummyServer",
+  "version": "1.0.0",
+  "description": "This is the mock server for the systemExcellence",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "systemExcellence"
+  ],
+  "author": "Sebastian Zankel",
+  "license": "Private",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "compression": "^1.4.1",
+    "express.io": "^1.1.13",
+    "jsonfile": "^2.0.0",
+    "moment": "^2.9.0",
+    "winston": "^0.9.0"
+  }
+}

@@ -1,0 +1,11 @@
+//The outer id of the output chooser
+.outputChooser {
+  $outputChooserElementDisplay: inline-flex !default;
+  $outputChooserElementMargin: 0 20px 0 10px !default;
+
+  //One element in the chooser
+  .outputChooserElement {
+    display: $outputChooserElementDisplay;
+    margin: $outputChooserElementMargin;
+  }
+}
