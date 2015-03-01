@@ -13,7 +13,7 @@ Bonus points for:
 
 - drag&drop
 - implementing a 'disabled' feature that disallows editing nodes
-- making a type of node that has a dropdown box when edited
+- making a type of node that has a dropdown box when edited TODO!!!
 - CSS styling of the nodes
 
 #Installation
