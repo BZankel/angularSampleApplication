@@ -26,6 +26,7 @@ elementType = 'wigdet'
 angular.module(moduleName, [
   'sampleApplication.services' #The application services
   'xeditable' #Edit in place plugin
+  'sampleApplication.filters' #The apllication filters
 ]).controller(controllerName, ['$scope', "sampleApplicationConfigurationService", "$timeout", "$window"
 ($scope, configService, $timeout, $window)->
 

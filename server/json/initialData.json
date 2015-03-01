@@ -11,7 +11,7 @@
     "label": "child",
     "parentId": 123,
     "type": "A",
-    "enable": false
+    "enabled": false
   },
   {
     "id": 12345,

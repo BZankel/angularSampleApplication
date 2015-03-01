@@ -101,12 +101,19 @@ angular.module(moduleName, [
       ###The json Dragger configuration###
       @jsonDragger =
         uiSortableOptions:
-          update: (e, ui) ->
+          stop: (e, ui) ->
             if angular.element(ui.item).prev().length > 0
               prevId = angular.element(ui.item).prev().scope().value["id"]
             else
               prevId = -1
             angular.element(ui.item).scope().value["parentId"] = prevId
+            if  angular.element(ui.item).next().length > 0
+              angular.element(ui.item).next().scope().value.parentId = angular.element(ui.item).scope().value["id"]
+            if angular.element(ui.item).prev().length > 0
+              if angular.element(ui.item).prev().prev().length > 0
+                angular.element(ui.item).prev().scope().value.parentId = angular.element(ui.item).prev().prev().scope().value.id
+              else
+                angular.element(ui.item).prev().scope().value.parentId = -1
             return
         id: "jsonDraggerSampleModule"
         doubleClick: ($event, id)->

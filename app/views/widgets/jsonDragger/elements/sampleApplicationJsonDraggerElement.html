@@ -5,5 +5,5 @@
   editable-text="elementDataJson"
   e-form="textBtnForm"
   onbeforesave="checkJsonValidness($data)">
-  {{elementData[renderField]}}
+  {{elementData[renderField] | boolean2string}}
 </span>
