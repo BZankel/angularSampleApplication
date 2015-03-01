@@ -26,7 +26,7 @@ Bonus points for:
 7. Install ruby and add to your path
 8. install ruby scss gem
 9. Run npm install from the root directory
-10. Run bower install from the root directory
+10. Run bower install from the root directory (Use angular 1.3+ to make one way databinding work)
 11. Run npm install in the server directory
 12. Run nodemon server.coffee from the server directory
 13. Run grunt serve from the root directory
