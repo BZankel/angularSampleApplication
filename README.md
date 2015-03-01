@@ -38,3 +38,4 @@ Bonus points for:
 3. Filedownload json and filedrop
 4. Username and Password to header
 5. Make build task working properly
+6. Making a type of node that has a dropdown box when edited
