@@ -1,6 +1,6 @@
 $pathToFonts: '../resources/fonts/';
 
-$fontList: ("Big": "16px", "Large": "14px", "Normal": "12px", "Small": "11px");
+$fontList: ("Big": 16px, "Large": 14px, "Normal": 12px, "Small": 11px);
 
 //Fonts
 @include font-face("Roboto", $pathToFonts + "Roboto-Black", $file-formats: ttf);
